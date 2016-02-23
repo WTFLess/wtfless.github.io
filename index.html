@@ -9,7 +9,7 @@ about: 'about.html'
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="/assets/images/home2.png" alt="Blog Logo" />
+                    <img src= "{{ page.logo }}"   alt="Blog Logo" />
                 </a>
             {% endif %}
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
