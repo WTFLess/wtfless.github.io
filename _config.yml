@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: WTFLess
+description: for you code!
+meta_description: "WTFLess for your code, for a cleaner code ;)"
 
 markdown: kramdown
 highlighter: pygments
