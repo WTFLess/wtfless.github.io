@@ -1,5 +1,5 @@
-name: "WTFLess"
-description: "for you code!"
+name: WTFLess
+description: for you code
 meta_description: "WTFLess for your code, for a cleaner code ;)"
 
 markdown: kramdown
