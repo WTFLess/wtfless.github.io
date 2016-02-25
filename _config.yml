@@ -13,4 +13,5 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'wtfless.githud.i2o'
-author:         'Henrique Westphal - Jonathan Beber'
+author:         'Henrique Westphal'
+author2:         'Jonathan Beber'
