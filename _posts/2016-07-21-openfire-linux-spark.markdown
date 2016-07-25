@@ -52,7 +52,7 @@ Configurar a senha do Root do Mysql
 
 ## Openfire
 
-O Download do openfire pode ser feito de duas formas uma, direto pelo site do [openfirelink],
+O Download do openfire pode ser feito de duas formas uma, direto pelo site do [Openfirelink],
 ou então pelo comando. 
 
 {% highlight linux %} $ wget http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire-3.8.1-1.i386.rpm
@@ -64,7 +64,7 @@ ou então pelo comando.
 
    [Wtfless], [Github] .
 
-[openfirelink]: http://www.igniterealtime.org/index.jsp 
+[Openfirelink]: http://www.igniterealtime.org/index.jsp/
 [Wtfless]: http://wtfless.github.io/
 [Github]: https://github.com/
 
