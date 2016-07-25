@@ -59,13 +59,58 @@ ou então pelo comando.
 
 {% endhighlight %}
 
+É necessario também, instalar as libs "libldb.i686" e "glibc.i686" pois o openfire é 32Bits.
+
+{% highlight linux %}
+$ yum install glibc.i686
+$ yum install libldb.i686 
+{% endhighlight %}
+
+Agora instale o pacote do openfire baixado, seja pelo link direto ou pelo wget, com o comando:
+
+{% highlight linux %} $ rmp -ivh openfire-x.x.x-x.i686.rpm
+
+{% endhighlight %}
+
+## Configurações 
+
+Primeiro inicie o servico do openfire. 
+
+{% highlight linux %} $ service openfire start
+
+{% endhighlight %}
+
+Agora é necessario  acessar o Mysql para configurar as tabelas.
+
+{% highlight linux %} $ mysql -u root -p
+
+{% endhighlight %}
+
+Criando as tabelas:
+
+{% highlight linux %} 
+mysql> CREATE DATABASE openfire;
+mysql> GRANT ALL PRIVILEGES ON openfire.* TO 'openfire'@'localhost' IDENTIFIED BY 'senhade acesso';
+mysql> FLUSH PRIVILEGES;
+mysql> quit
+{% endhighlight %}
+
+Agora, é necessario importar os dados para o Mysql.
+
+{% highlight linux %} $ mysql -u root -p openfire <  /opt/openfire/resources/database/openfire_mysql.sql 
+
+{% endhighlight %}
 
 
 
-   [Wtfless], [Github] .
+
+
+
+
+
+
 
 [Openfirelink]: http://www.igniterealtime.org/index.jsp/
 [Wtfless]: http://wtfless.github.io/
 [Github]: https://github.com/
-
 
