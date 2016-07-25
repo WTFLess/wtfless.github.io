@@ -110,7 +110,7 @@ Agora, é necessario importar os dados para o Mysql.
 
 
 
-[Openfirelink]: http://www.igniterealtime.org/index.jsp/
+[Openfirelink]: http://www.igniterealtime.org/index.jsp
 [Wtfless]: http://wtfless.github.io/
 [Github]: https://github.com/
 
