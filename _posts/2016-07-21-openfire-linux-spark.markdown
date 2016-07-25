@@ -13,16 +13,20 @@ Instalação:
 
 O openfire é uma aplicação java, sendo assim necessitamos instalar o mesmo. para instalar, o comando é p seguinte:
 
-$ yum install java -y
+{% highlight linux %} $ yum install java -y
+
+{% endhighlight %}
 
 Bom o openfire pode usar um banco de dados interno ou um externo, podendo sem mysql postgresql mariadb enfim,
 neste nosso caso iremos usar o mysql.
 
 Então vamos baixar o mysql com o comando 
 
-$ yum install mysql mysql-server -y
+{% highlight linux %} $ yum install mysql mysql-server -y
 
-...continua
+{% endhighlight %}
+
+
 
    [Wtfless], [Github] .
 
