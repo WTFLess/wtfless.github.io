@@ -5,6 +5,8 @@ date:   2016-07-21 16:15:00
 categories: Tecnologia
 ---
 
+![openfire](assets/images/logo-openfire.png "logo da openfire")
+
 O openfire é uma aplicação que permite habilitar um chat para comunicação interna, muito usado em empresas para subistituir o Skype, com ele é possivel fazer video chamada, tranferencia de arquivos, e ate mesmo salas de reunição. 
 
 vamos la, para a parte interessante. 
